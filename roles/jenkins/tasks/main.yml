@@ -26,6 +26,6 @@
 
 - name: Start Jenkins as a service
   service:
-    namme: Jenkins
+    namme: jenkins
     enabled: yes
     state: started
