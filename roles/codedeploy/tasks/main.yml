@@ -1,0 +1,5 @@
+---
+# tasks file for codedeploy
+- name: install & start AWS CodeDeploy agent
+  aws_codedeploy:
+    enabled: yes
